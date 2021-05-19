@@ -21,29 +21,17 @@ body{
         border-radius: 3px;
         border: solid black 1px;
     }
-    a:hover{
-        color: $blanco;
-    }
 }
-.nav{
+.nav-item{
+    margin: 0px 10px;
+}
+.navbar-light{
     margin-bottom: 1%;
-    a{
-        color: $negro;
-        background: linear-gradient(90deg, rgba(2,0,36,0.29735644257703087) 0%, rgba(57,123,136,1) 49%, rgba(2,0,36,0.2721463585434174) 100%);
-        margin-left: 4%;
-    }
-    a:hover{
-        color: $blanco;
-    }
-}
-.dropdown-item{
-    margin: 2%;
 }
 .dropdown-menu{
-    background: none;
-    border: none;
+    color: $negro;
+    background: linear-gradient(90deg, rgba(2,0,36,0.29735644257703087) 0%, rgba(57,123,136,1) 49%, rgba(2,0,36,0.2721463585434174) 100%);
 }
-
 
 //INDEX
 .card{

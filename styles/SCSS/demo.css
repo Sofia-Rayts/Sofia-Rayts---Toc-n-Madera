@@ -17,32 +17,18 @@ body {
   border: solid black 1px;
 }
 
-.navbar a:hover {
-  color: white;
+.nav-item {
+  margin: 0px 10px;
 }
 
-.nav {
+.navbar-light {
   margin-bottom: 1%;
 }
 
-.nav a {
+.dropdown-menu {
   color: black;
   background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0.297356)), color-stop(49%, #397b88), to(rgba(2, 0, 36, 0.272146)));
   background: linear-gradient(90deg, rgba(2, 0, 36, 0.297356) 0%, #397b88 49%, rgba(2, 0, 36, 0.272146) 100%);
-  margin-left: 4%;
-}
-
-.nav a:hover {
-  color: white;
-}
-
-.dropdown-item {
-  margin: 2%;
-}
-
-.dropdown-menu {
-  background: none;
-  border: none;
 }
 
 .card {
