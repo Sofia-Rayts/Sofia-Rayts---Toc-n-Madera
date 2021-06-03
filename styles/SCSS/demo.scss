@@ -35,7 +35,6 @@ body{
 
 //INDEX
 .card{
-    margin: 4px;
     border-radius: $radius;
     border: solid $blanco 2px;
     h5{
@@ -44,6 +43,9 @@ body{
         text-align: center;
         border-radius: 20px;
         border: solid $negro 2px;
+    }
+    p{
+        text-align: justify;
     }
 }
 @each $imgfondo in fondo1, fondo2, fondo3{
@@ -80,12 +82,12 @@ body{
     display: flex;
     justify-content: flex-start;
     p{
-        margin: 0 10px;
+        margin: 0 2%;
     }
 }
 .container-fluid{
     background-color: $negro;
-    padding: 2%;
+    padding: 1%;
 }
 footer{
     p{
@@ -98,16 +100,11 @@ footer{
     display: inline-block;
     width: 100%;
     img{
-        border-radius: $radius;
+        border-radius: 10px;
         float: left;
         margin-left: 2%;
         margin-bottom: 1%;
-        margin-left: 10%;
-    }
-    table{
-        display: inline-block;
-        margin-left: 15%;
-        margin-top: 1%;
+        margin-left: 2%;
     }
     ul{
         list-style-type: circle;
@@ -118,10 +115,14 @@ table{
         color: rgb(73, 73, 110);
         font-family: $letra;
         text-align: center;
+        border: 1px solid $negro;
+        padding: 1%;
     }
     td{
         color: $negro;
         font-family: 'Hind Siliguri', sans-serif;
+        border: 1px solid $negro;
+        padding: 1%;
     }
 } 
 .columna-uno{
@@ -139,8 +140,8 @@ table{
     display: grid;
     grid-template-columns: 1fr 1fr;
     img{
-        width: 60%;
-        border-radius: $radius;
+        width: 75%;
+        border-radius: 10px;
         margin-left: 15%;
         margin-bottom: 1%;
     }
@@ -332,7 +333,6 @@ table{
 
 //COLOR Y FUENTE DEL TEXTO
 p{
-    color: $negro;
     font-family: 'Hind Siliguri', sans-serif;
 }
 h1{
@@ -364,7 +364,7 @@ label{
         margin: 0%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "img6 img1" "img2 img4" "img3 img5";
+        grid-template-areas: "img2 img1" "img3 img4" "img6 img5";
     }
     .img1{
         width: 90%;
@@ -388,7 +388,7 @@ label{
     .galeria3{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "img18 img13" "img14 img15" "img17 img12" "img16 none";
+        grid-template-areas: "img16 img13" "img14 img15" "img17 img12" "img18 none";
         img{
             border: $border;
         }
@@ -415,15 +415,21 @@ label{
         width: 90%;
     }
     table{
+        display: inline-block;
+        margin-left: 2%;
+        margin-top: 1%;
         th{
-            font-size: 90%;
+            font-size: 100%;
         }
         td{
-            font-size: 70%;
+            font-size: 80%;
         }
     } 
+    #primerimg{
+        margin-left: 30%;
+    }
     .columna-uno{
-        font-size: 80%;
+        font-size: 90%;
     }
     .media-body{
         font-size: 10px;
@@ -431,9 +437,13 @@ label{
     .media{
         img{
             width: 40%;
+            margin-top: 10%;
         }
         h1{
             font-size: 30px;
+        }
+        h2{
+            font-size: 15px;
         }
     }
     .tablas-presentacion{
@@ -447,11 +457,28 @@ label{
             font-size: 20px;
         }
     } 
-    .mapa p{
-        font-size: 15px;
+    .mapa{
+        a{
+            font-size: 13px;
+        }
+        p{
+        font-size: 12px;
+        }
     }
     #titulo-formulario{
-        font-size: 25px;
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    .formulario{
+        label{
+            font-size: 13px;
+        }
+        input{
+            font-size: 12px;
+        }
+        select{
+            font-size: 13px;
+        }
     }
     .iframe{
         width: 90%;
@@ -460,12 +487,12 @@ label{
         text-align: center;
     }
     .navbar-brand{
-        font-size: 21px;
+        font-size: 17px;
         img{
-            width: 45px;
-            height: 45px;
+            width: 40px;
+            height: 40px;
         }
-    }
+    }  
     .nav-item{
         font-size: 8px;
         margin-bottom: 1%;
@@ -487,18 +514,27 @@ label{
             font-size: 18px;
         }
         p{
-            font-size: 15px;
+            font-size: 14px;
         }
     } 
     .card{
         p{
-            font-size: 15px;
+            font-size: 14px;
         }
         h5{
             font-size: 20px;
         }
-    } 
-
+    } .card-title{
+        font-size: 18px;
+    }
+    footer{
+        p{
+            font-size: 8px;
+        }
+    }
+    .card{
+        margin: 4px 5px;
+    }
 }
 @media only screen and (min-width: 600px) {
     .galeria1{
@@ -527,6 +563,9 @@ label{
         margin-top: 2%;
     }
     table{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 1%;
         th{
             font-size: 20px;
         }
@@ -543,6 +582,7 @@ label{
     .media{
         img{
             width: 30%;
+            margin-top: 2%;
         }
         h1{
             font-size: 35px;
@@ -599,21 +639,27 @@ label{
             font-size: 25px;
         }
         p{
-            font-size: 10px;
+            font-size: 15px;
         }
     } 
     .card{
         p{
-            font-size: 20px;
+            font-size: 15px;
         }
         h5{
             font-size: 25px;
         }
     } 
+    .card-title{
+        font-size: 21px;
+    }
     footer{
         p{
-            font-size: 10px;
+            font-size: 13px;
         }
+    }
+    .card{
+        margin: 5px 20px;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -643,6 +689,9 @@ label{
         margin-top: 2%;
     }
     table{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 1%;
         th{
             font-size: 35px;
         }
@@ -659,6 +708,7 @@ label{
     .media{
         img{
             width: 30%;
+            margin-top: 2%;
         }
         h1{
             font-size: 40px;
@@ -720,16 +770,22 @@ label{
     } 
     .card{
         p{
-            font-size: 25px;
+            font-size: 20px;
         }
         h5{
             font-size: 30px;
         }
     } 
+    .card-title{
+        font-size: 25px;
+    }
     footer{
         p{
             font-size: 15px;
         }
+    }
+    .card{
+        margin: 5px 20px;
     }
 }
 

@@ -32,7 +32,6 @@ body {
 }
 
 .card {
-  margin: 4px;
   border-radius: 20px;
   border: solid white 2px;
 }
@@ -44,6 +43,10 @@ body {
   text-align: center;
   border-radius: 20px;
   border: solid black 2px;
+}
+
+.card p {
+  text-align: justify;
 }
 
 .img-fondo1 {
@@ -95,12 +98,12 @@ body {
 }
 
 .col-8 p {
-  margin: 0 10px;
+  margin: 0 2%;
 }
 
 .container-fluid {
   background-color: black;
-  padding: 2%;
+  padding: 1%;
 }
 
 footer p {
@@ -113,17 +116,11 @@ footer p {
 }
 
 .media img {
-  border-radius: 20px;
+  border-radius: 10px;
   float: left;
   margin-left: 2%;
   margin-bottom: 1%;
-  margin-left: 10%;
-}
-
-.media table {
-  display: inline-block;
-  margin-left: 15%;
-  margin-top: 1%;
+  margin-left: 2%;
 }
 
 .media ul {
@@ -134,11 +131,15 @@ table th {
   color: #49496e;
   font-family: "Fjalla One", sans-serif;
   text-align: center;
+  border: 1px solid black;
+  padding: 1%;
 }
 
 table td {
   color: black;
   font-family: 'Hind Siliguri', sans-serif;
+  border: 1px solid black;
+  padding: 1%;
 }
 
 .columna-uno {
@@ -160,8 +161,8 @@ table td {
 }
 
 .tablas-presentacion img {
-  width: 60%;
-  border-radius: 20px;
+  width: 75%;
+  border-radius: 10px;
   margin-left: 15%;
   margin-bottom: 1%;
 }
@@ -424,7 +425,6 @@ table td {
 }
 
 p {
-  color: black;
   font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -464,7 +464,7 @@ label {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "img6 img1" "img2 img4" "img3 img5";
+        grid-template-areas: "img2 img1" "img3 img4" "img6 img5";
   }
   .img1 {
     width: 90%;
@@ -490,7 +490,7 @@ label {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "img18 img13" "img14 img15" "img17 img12" "img16 none";
+        grid-template-areas: "img16 img13" "img14 img15" "img17 img12" "img18 none";
   }
   .galeria3 img {
     border: solid white 1px;
@@ -516,23 +516,35 @@ label {
   .img18 {
     width: 90%;
   }
+  table {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
   table th {
-    font-size: 90%;
+    font-size: 100%;
   }
   table td {
-    font-size: 70%;
+    font-size: 80%;
+  }
+  #primerimg {
+    margin-left: 30%;
   }
   .columna-uno {
-    font-size: 80%;
+    font-size: 90%;
   }
   .media-body {
     font-size: 10px;
   }
   .media img {
     width: 40%;
+    margin-top: 10%;
   }
   .media h1 {
     font-size: 30px;
+  }
+  .media h2 {
+    font-size: 15px;
   }
   .tablas-presentacion h2 {
     font-size: 15px;
@@ -543,11 +555,24 @@ label {
   .tablas-presentacion h1 {
     font-size: 20px;
   }
+  .mapa a {
+    font-size: 13px;
+  }
   .mapa p {
-    font-size: 15px;
+    font-size: 12px;
   }
   #titulo-formulario {
-    font-size: 25px;
+    font-size: 16px;
+    margin-top: 5%;
+  }
+  .formulario label {
+    font-size: 13px;
+  }
+  .formulario input {
+    font-size: 12px;
+  }
+  .formulario select {
+    font-size: 13px;
   }
   .iframe {
     width: 90%;
@@ -556,11 +581,11 @@ label {
     text-align: center;
   }
   .navbar-brand {
-    font-size: 21px;
+    font-size: 17px;
   }
   .navbar-brand img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
   }
   .nav-item {
     font-size: 8px;
@@ -582,13 +607,22 @@ label {
     font-size: 18px;
   }
   .presentacion p {
-    font-size: 15px;
+    font-size: 14px;
   }
   .card p {
-    font-size: 15px;
+    font-size: 14px;
   }
   .card h5 {
     font-size: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 8px;
+  }
+  .card {
+    margin: 4px 5px;
   }
 }
 
@@ -622,6 +656,11 @@ label {
   .img18 {
     margin-top: 2%;
   }
+  table {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 1%;
+  }
   table th {
     font-size: 20px;
   }
@@ -636,6 +675,7 @@ label {
   }
   .media img {
     width: 30%;
+    margin-top: 2%;
   }
   .media h1 {
     font-size: 35px;
@@ -688,16 +728,22 @@ label {
     font-size: 25px;
   }
   .presentacion p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .card p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .card h5 {
     font-size: 25px;
   }
+  .card-title {
+    font-size: 21px;
+  }
   footer p {
-    font-size: 10px;
+    font-size: 13px;
+  }
+  .card {
+    margin: 5px 20px;
   }
 }
 
@@ -731,6 +777,11 @@ label {
   .img18 {
     margin-top: 2%;
   }
+  table {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 1%;
+  }
   table th {
     font-size: 35px;
   }
@@ -745,6 +796,7 @@ label {
   }
   .media img {
     width: 30%;
+    margin-top: 2%;
   }
   .media h1 {
     font-size: 40px;
@@ -800,13 +852,19 @@ label {
     font-size: 25px;
   }
   .card p {
-    font-size: 25px;
+    font-size: 20px;
   }
   .card h5 {
     font-size: 30px;
   }
+  .card-title {
+    font-size: 25px;
+  }
   footer p {
     font-size: 15px;
+  }
+  .card {
+    margin: 5px 20px;
   }
 }
 /*# sourceMappingURL=demo.css.map */
