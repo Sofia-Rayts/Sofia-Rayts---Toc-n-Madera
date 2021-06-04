@@ -82,7 +82,7 @@ body{
     display: flex;
     justify-content: flex-start;
     p{
-        margin: 0 2%;
+        margin: 0% 2%;
     }
 }
 .container-fluid{
@@ -354,10 +354,10 @@ label{
 /*media queries*/
 @media only screen and (min-width: 200px) {
     .galeria1{
-        margin: 0%;
+        margin-left: 3%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "img2 img1" "img3 img4" "img6 img5";
+        grid-template-areas: "img2 img1" "img3 img5" "img6 img4";
     }
     .img1{
         width: 90%;
@@ -508,8 +508,8 @@ label{
         font-size: 10px;
     }
     .red-face, .red-ig, .red-wp{
-        height: 15px;
-        width: 15px;
+        height: 17px;
+        width: 17px;
         margin-right: 1%;
     }
     .col-8{
@@ -648,12 +648,14 @@ label{
             height: 70px;
         }
     }
-    .nav-item{
-        font-size: 18px;
-        margin-bottom: 0%;
-    }
-    .dropdown-menu{
-        font-size: 18px;
+    .navbar-expand-lg{
+        .nav-link{
+            font-size: 18px;
+            padding-bottom: 0%;
+        }
+        .dropdown-item{
+            font-size: 18px;
+        }
     }
     .red-face, .red-ig, .red-wp{
         height: 40px;
@@ -792,12 +794,14 @@ label{
             height: 80px;
         }
     }
-    .nav-item{
-        font-size: 24px;
-        margin-bottom: 0%;
-    }
-    .dropdown-menu{
-        font-size: 24px;
+    .navbar-expand-lg{
+        .nav-link{
+            font-size: 20px;
+            padding-bottom: 0%;
+        }
+        .dropdown-item{
+            font-size: 22px;
+        }
     }
     .red-face, .red-ig, .red-wp{
         height: 50px;
