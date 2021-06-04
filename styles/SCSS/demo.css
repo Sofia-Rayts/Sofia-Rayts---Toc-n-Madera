@@ -478,6 +478,7 @@ label {
     margin: 0%;
   }
   .galeria3 {
+    margin-left: 3%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr 1fr;
