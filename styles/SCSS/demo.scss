@@ -99,13 +99,6 @@ footer{
 .media{
     display: inline-block;
     width: 100%;
-    img{
-        border-radius: 10px;
-        float: left;
-        margin-left: 2%;
-        margin-bottom: 1%;
-        margin-left: 2%;
-    }
     ul{
         list-style-type: circle;
     }
@@ -414,9 +407,15 @@ label{
     .img18{
         width: 90%;
     }
+    .nav-link{
+        font-size: 12px;
+    }
+    .dropdown-item{
+        font-size: 11px;
+    }
     table{
         display: inline-block;
-        margin-left: 2%;
+        margin-left: 7%;
         margin-top: 1%;
         th{
             font-size: 100%;
@@ -425,9 +424,6 @@ label{
             font-size: 80%;
         }
     } 
-    #primerimg{
-        margin-left: 30%;
-    }
     .columna-uno{
         font-size: 90%;
     }
@@ -438,6 +434,10 @@ label{
         img{
             width: 40%;
             margin-top: 10%;
+            border-radius: 10px;
+            float: left;
+            margin-left: 2%;
+            margin-bottom: 1%;
         }
         h1{
             font-size: 30px;
@@ -445,6 +445,9 @@ label{
         h2{
             font-size: 15px;
         }
+    }
+    #primer{
+        margin-left: 30%;
     }
     .tablas-presentacion{
         h2{
@@ -463,6 +466,8 @@ label{
         }
         p{
         font-size: 12px;
+        margin-left: 3%;
+        margin-right: 3%;
         }
     }
     #titulo-formulario{
@@ -565,7 +570,7 @@ label{
     table{
         display: inline-block;
         margin-left: 15%;
-        margin-top: 1%;
+        margin-top: 3%;
         th{
             font-size: 20px;
         }
@@ -583,10 +588,17 @@ label{
         img{
             width: 30%;
             margin-top: 2%;
+            border-radius: 10px;
+            float: left;
+            margin-left: 2%;
+            margin-bottom: 1%;
         }
         h1{
             font-size: 35px;
         }
+    }
+    #primer{
+        margin-left: 2%;
     }
     .tablas-presentacion{
         h2{
@@ -599,8 +611,24 @@ label{
             font-size: 30px;
         }
     } 
-    .mapa p{
-        font-size: 20px;
+    .mapa{
+        p{
+            font-size: 20px;
+        }
+        a{
+            font-size: 20px;
+        }
+    } 
+    .formulario{
+        label{
+            font-size: 20px;
+        }
+        input{
+            font-size: 20px;
+        }
+        select{
+            font-size: 20px;
+        }
     }
     #titulo-formulario{
         font-size: 30px;
@@ -691,7 +719,7 @@ label{
     table{
         display: inline-block;
         margin-left: 15%;
-        margin-top: 1%;
+        margin-top: 3%;
         th{
             font-size: 35px;
         }
@@ -709,10 +737,17 @@ label{
         img{
             width: 30%;
             margin-top: 2%;
+            border-radius: 10px;
+            float: left;
+            margin-left: 2%;
+            margin-bottom: 1%;
         }
         h1{
             font-size: 40px;
         }
+    }
+    #primer{
+        margin-left: 2%;
     }
     .tablas-presentacion{
         h2{
@@ -727,6 +762,17 @@ label{
     } 
     .mapa p{
         font-size: 20px;
+    }
+    .formulario{
+        label{
+            font-size: 20px;
+        }
+        input{
+            font-size: 20px;
+        }
+        select{
+            font-size: 20px;
+        }
     }
     #titulo-formulario{
         font-size: 30px;
