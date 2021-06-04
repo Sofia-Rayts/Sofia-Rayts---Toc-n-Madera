@@ -508,10 +508,10 @@ label {
   .img18 {
     width: 90%;
   }
-  .nav-link {
+  .navbar-expand-lg .nav-link {
     font-size: 18px;
   }
-  .dropdown-item {
+  .navbar-expand-lg .dropdown-item {
     font-size: 18px;
   }
   table {
