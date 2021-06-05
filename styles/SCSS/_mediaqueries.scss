@@ -1,0 +1,500 @@
+//REGLAS GENERALES
+$negro: black;
+$border: solid white 1px;
+/*media queries*/
+@media only screen and (min-width: 200px) {
+    .galeria1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "img2 img1" "img3 img5" "img6 img4";
+    }
+    .tamano1{
+        width: 150px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .tamano2{
+        width: 150px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .tamano3{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    .galeria3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "img16 img13" "img14 img15" "img17 img12" "img18 none";
+        img{
+            border: $border;
+        }
+    }
+    .tamano4{
+        width: 150px;
+        height: 150px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .tamano5{
+        width: 150px;
+        height: 150px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .navbar-expand-lg{
+        .nav-link{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .dropdown-item{
+            font-size: 18px;
+            color: $negro;
+            font-weight: bold;
+        }
+    }
+    table{
+        display: inline-block;
+        margin-left: 7%;
+        margin-top: 1%;
+        th{
+            font-size: 100%;
+        }
+        td{
+            font-size: 80%;
+        }
+    } 
+    .columna-uno{
+        font-size: 90%;
+    }
+    .media-body{
+        font-size: 10px;
+    }
+    .media{
+        img{
+            width: 40%;
+            margin-top: 10%;
+            border-radius: 10px;
+            float: left;
+            margin-left: 2%;
+            margin-bottom: 1%;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 15px;
+        }
+    }
+    #primer{
+        margin-left: 30%;
+    }
+    .tablas-presentacion{
+        h2{
+            font-size: 15px;
+        }
+        h3{
+            font-size: 10px;
+        }
+        h1{
+            font-size: 20px;
+        }
+    } 
+    .mapa{
+        a{
+            font-size: 13px;
+        }
+        p{
+        font-size: 12px;
+        margin-left: 3%;
+        margin-right: 3%;
+        }
+    }
+    #titulo-formulario{
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    .formulario{
+        label{
+            font-size: 13px;
+        }
+        input{
+            font-size: 12px;
+        }
+        select{
+            font-size: 13px;
+        }
+    }
+    .iframe{
+        width: 90%;
+    }
+    .formulario{
+        text-align: center;
+    }
+    .navbar-brand{
+        font-size: 17px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }  
+    .nav-item{
+        font-size: 8px;
+        margin-bottom: 1%;
+    }
+    .dropdown-menu{
+        font-size: 10px;
+    }
+    .red-face, .red-ig, .red-wp{
+        height: 17px;
+        width: 17px;
+        margin-right: 1%;
+    }
+    .col-8{
+        font-size: 6px;
+        margin-top: 2%;
+    }
+    .presentacion{
+        h1{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+    } 
+    .card{
+        p{
+            font-size: 14px;
+        }
+        h5{
+            font-size: 20px;
+        }
+    } .card-title{
+        font-size: 18px;
+    }
+    footer{
+        p{
+            font-size: 8px;
+        }
+    }
+    .card{
+        margin: 4px 5px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .galeria1{
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "img6 img1 img2 img3" "img6 img4 img5 none";
+    }
+    .tamano1{
+        width: 300px;
+        margin-top: 3.5%;
+    }
+    .tamano2{
+        width: 200px;
+        height: 200px;
+    }
+    .tamano3{
+        width: 300px;
+        height: 300px;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    .galeria3{
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "img18 img13 img14 img15" "img18 img16 img17 img12";
+    }
+    .tamano4{
+        width: 300px;
+        height: 400px;
+        margin-right: 15%;
+    }
+    .tamano5{
+        width: 200px;
+        height: 200px;
+    }
+    table{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 3%;
+        th{
+            font-size: 20px;
+        }
+        td {
+            font-size: 11px;
+        }
+    } 
+    .columna-uno{
+        font-size: 14px;
+    }
+    .media-body{
+        font-size: 15px;
+    }
+    .media{
+        img{
+            width: 30%;
+            margin-top: 2%;
+            border-radius: 10px;
+            float: left;
+            margin-left: 2%;
+            margin-bottom: 1%;
+        }
+        h1{
+            font-size: 35px;
+        }
+    }
+    #primer{
+        margin-left: 2%;
+    }
+    .tablas-presentacion{
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 30px;
+        }
+    } 
+    .mapa{
+        p{
+            font-size: 20px;
+        }
+        a{
+            font-size: 20px;
+        }
+    } 
+    .formulario{
+        label{
+            font-size: 20px;
+        }
+        input{
+            font-size: 20px;
+        }
+        select{
+            font-size: 20px;
+        }
+    }
+    #titulo-formulario{
+        font-size: 30px;
+    }
+    .iframe{
+        width: 90%;
+    }
+    .formulario{
+        text-align: center;
+    }
+    .navbar-brand{
+        font-size: 50px;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .navbar-expand-lg{
+        .nav-link{
+            font-size: 18px;
+            padding-bottom: 0%;
+        }
+        .dropdown-item{
+            font-size: 18px;
+        }
+    }
+    .red-face, .red-ig, .red-wp{
+        height: 40px;
+        width: 40px;
+        margin-left: 5%;
+    }
+    .col-8{
+        font-size: 8px;
+        margin-top: 1%;
+    }
+    .presentacion{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    } 
+    .card{
+        p{
+            font-size: 15px;
+        }
+        h5{
+            font-size: 25px;
+        }
+    } 
+    .card-title{
+        font-size: 21px;
+    }
+    footer{
+        p{
+            font-size: 13px;
+        }
+    }
+    .card{
+        margin: 5px 20px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .galeria1{
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "img6 img1 img2 img3" "img6 img4 img5 none";
+    }
+    .tamano1{
+        width: 400px;
+        margin-top: 10%;
+    }
+    .tamano2{
+        width: 300px;
+        height: 300px;
+    }
+    .tamano3{
+        width: 500px;
+        height: 500px;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    .galeria3{
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "img18 img13 img14 img15" "img18 img16 img17 img12";
+    }
+    .tamano4{
+        width: 400px;
+        height: 500px;
+        margin-top: 10%;
+    }
+    .tamano5{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    table{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 3%;
+        th{
+            font-size: 35px;
+        }
+        td {
+            font-size: 25px;
+        }
+    } 
+    .columna-uno {
+        font-size: 30px;
+    }
+    .media-body{
+        font-size: 20px;
+    }
+    .media{
+        img{
+            width: 30%;
+            margin-top: 2%;
+            border-radius: 10px;
+            float: left;
+            margin-left: 2%;
+            margin-bottom: 1%;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    #primer{
+        margin-left: 2%;
+    }
+    .tablas-presentacion{
+        h2{
+            font-size: 40px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        h1{
+            font-size: 40px;
+        }
+    } 
+    .mapa p{
+        font-size: 20px;
+    }
+    .formulario{
+        label{
+            font-size: 20px;
+        }
+        input{
+            font-size: 20px;
+        }
+        select{
+            font-size: 20px;
+        }
+    }
+    #titulo-formulario{
+        font-size: 30px;
+    }
+    .iframe{
+        width: 80%;
+    }
+    .formulario{
+        text-align: center;
+    }
+    .navbar-brand{
+        font-size: 50px;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .navbar-expand-lg{
+        .nav-link{
+            font-size: 20px;
+            padding-bottom: 0%;
+        }
+        .dropdown-item{
+            font-size: 22px;
+        }
+    }
+    .red-face, .red-ig, .red-wp{
+        height: 50px;
+        width: 50px;
+        margin-left: 10%;
+    }
+    .col-8{
+        font-size: 12px;
+        margin-top: 1%;
+    }
+    .presentacion{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 25px;
+        }
+    } 
+    .card{
+        p{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 30px;
+        }
+    } 
+    .card-title{
+        font-size: 25px;
+    }
+    footer{
+        p{
+            font-size: 15px;
+        }
+    }
+    .card{
+        margin: 5px 20px;
+    }
+}

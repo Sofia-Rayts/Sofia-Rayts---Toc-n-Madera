@@ -1,0 +1,57 @@
+//REGLAS GENERALES
+$negro: black;
+$letra: 'Fjalla One', sans-serif;
+
+//TABLAS DE PICAR Y OTROS PRODUCTOS
+.media{
+    display: inline-block;
+    width: 100%;
+    ul{
+        list-style-type: circle;
+    }
+} 
+table{
+    th{
+        color: rgb(73, 73, 110);
+        font-family: $letra;
+        text-align: center;
+        border: 1px solid $negro;
+        padding: 1%;
+    }
+    td{
+        color: $negro;
+        font-family: 'Hind Siliguri', sans-serif;
+        border: 1px solid $negro;
+        padding: 1%;
+    }
+} 
+.columna-uno{
+    text-align: left;
+    margin: 0.5%;
+}
+.media-body{
+    margin-top: 7%;
+    text-align: center;
+}
+
+//TABLAS DE PRESENTACION
+.tablas-presentacion{
+    margin-top: 1.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    img{
+        width: 75%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 1%;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        margin-left: 15%;
+    }
+}

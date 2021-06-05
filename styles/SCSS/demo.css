@@ -31,6 +31,61 @@ body {
   background: linear-gradient(90deg, rgba(2, 0, 36, 0.297356) 0%, #397b88 49%, rgba(2, 0, 36, 0.272146) 100%);
 }
 
+/*footer*/
+.col-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.col-8 p {
+  margin: 0% 2%;
+}
+
+.container-fluid {
+  background-color: black;
+  padding: 1%;
+}
+
+footer p {
+  color: white;
+}
+
+p {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1 {
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0.297356)), color-stop(49%, #397b88), to(rgba(2, 0, 36, 0.272146)));
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.297356) 0%, #397b88 49%, rgba(2, 0, 36, 0.272146) 100%);
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #101047;
+  font-family: "Fjalla One", sans-serif;
+}
+
+h3 {
+  color: black;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.opciones-contacto {
+  color: black;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+label {
+  color: black;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
 .card {
   border-radius: 20px;
   border: solid white 2px;
@@ -84,29 +139,6 @@ body {
 }
 
 .letra {
-  color: white;
-}
-
-/*footer*/
-.col-8 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.col-8 p {
-  margin: 0% 2%;
-}
-
-.container-fluid {
-  background-color: black;
-  padding: 1%;
-}
-
-footer p {
   color: white;
 }
 
@@ -387,46 +419,6 @@ table td {
           transform: scale(1.1);
 }
 
-.error {
-  text-align: center;
-}
-
-.error p {
-  font-size: 25px;
-}
-
-p {
-  font-family: 'Hind Siliguri', sans-serif;
-}
-
-h1 {
-  color: white;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0.297356)), color-stop(49%, #397b88), to(rgba(2, 0, 36, 0.272146)));
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0.297356) 0%, #397b88 49%, rgba(2, 0, 36, 0.272146) 100%);
-  font-family: "Fjalla One", sans-serif;
-  text-align: center;
-}
-
-h2 {
-  color: #101047;
-  font-family: "Fjalla One", sans-serif;
-}
-
-h3 {
-  color: black;
-  font-family: 'Hind Siliguri', sans-serif;
-}
-
-.opciones-contacto {
-  color: black;
-  font-family: 'Hind Siliguri', sans-serif;
-}
-
-label {
-  color: black;
-  font-family: 'Hind Siliguri', sans-serif;
-}
-
 /*media queries*/
 @media only screen and (min-width: 200px) {
   .galeria1 {
@@ -609,9 +601,11 @@ label {
   }
   .tamano1 {
     width: 300px;
+    margin-top: 3.5%;
   }
   .tamano2 {
     width: 200px;
+    height: 200px;
   }
   .tamano3 {
     width: 300px;
@@ -755,9 +749,11 @@ label {
   }
   .tamano1 {
     width: 400px;
+    margin-top: 10%;
   }
   .tamano2 {
     width: 300px;
+    height: 300px;
   }
   .tamano3 {
     width: 500px;
@@ -888,5 +884,13 @@ label {
   .card {
     margin: 5px 20px;
   }
+}
+
+.error {
+  text-align: center;
+}
+
+.error p {
+  font-size: 25px;
 }
 /*# sourceMappingURL=demo.css.map */
