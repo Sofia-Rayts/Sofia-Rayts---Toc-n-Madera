@@ -430,7 +430,6 @@ label {
 /*media queries*/
 @media only screen and (min-width: 200px) {
   .galeria1 {
-    margin-left: 3%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
@@ -451,10 +450,9 @@ label {
     width: 150px;
     height: 150px;
     margin-bottom: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
   }
   .galeria3 {
-    margin-left: 3%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr 1fr;

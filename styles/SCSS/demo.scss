@@ -334,7 +334,6 @@ label{
 /*media queries*/
 @media only screen and (min-width: 200px) {
     .galeria1{
-        margin-left: 3%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "img2 img1" "img3 img5" "img6 img4";
@@ -353,10 +352,9 @@ label{
         width: 150px;
         height: 150px;
         margin-bottom: 5%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .galeria3{
-        margin-left: 3%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: "img16 img13" "img14 img15" "img17 img12" "img18 none";
