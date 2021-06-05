@@ -50,9 +50,6 @@ $border: solid white 1px;
 .galeria2{
     margin-top: 2%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "img10 img11" "img9 img7" "img8 none";
     img{
         border: $border;
     }
