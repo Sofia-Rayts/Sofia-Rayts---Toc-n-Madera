@@ -438,16 +438,18 @@ label {
         grid-template-areas: "img2 img1" "img3 img5" "img6 img4";
   }
   .tamano1 {
-    width: 100px;
+    width: 150px;
+    margin-left: 10%;
   }
   .tamano2 {
-    width: 100px;
+    width: 150px;
+    margin-left: 10%;
   }
   .tamano3 {
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 5%;
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .galeria3 {
     margin-left: 3%;
@@ -461,14 +463,16 @@ label {
     border: solid white 1px;
   }
   .tamano4 {
-    width: 100px;
-    height: 100px;
-    margin-left: 5%;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    margin-bottom: 5%;
   }
   .tamano5 {
-    width: 100px;
-    height: 100px;
-    margin-left: 5%;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    margin-bottom: 5%;
   }
   .navbar-expand-lg .nav-link {
     font-size: 18px;
