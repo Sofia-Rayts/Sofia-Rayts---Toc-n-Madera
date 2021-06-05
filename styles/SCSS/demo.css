@@ -440,16 +440,18 @@ label {
   .tamano1 {
     width: 150px;
     margin-left: 10%;
+    margin-bottom: 5%;
   }
   .tamano2 {
     width: 150px;
     margin-left: 10%;
+    margin-bottom: 5%;
   }
   .tamano3 {
     width: 150px;
     height: 150px;
     margin-bottom: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
   }
   .galeria3 {
     margin-left: 3%;
